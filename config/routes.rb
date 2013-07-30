@@ -1,10 +1,6 @@
 Blog::Application.routes.draw do
   
-  get "say/hello" => "say#Hello"
-  
-  get "say/Hello"
-
-  get "say/goodbye"
+  resources :users
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
